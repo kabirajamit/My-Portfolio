@@ -142,7 +142,7 @@ body {
   border-radius: 22px;
   background: linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.03));
   border: 1px solid var(--border);
-  padding: 20px;
+  padding: 30px;
   box-shadow: var(--shadow);
   transform-style: preserve-3d;
   perspective: 1000px;
@@ -162,7 +162,7 @@ body {
   mix-blend-mode: screen;
 }
 .card-visual .glow {
-  position: absolute; inset: -20%;
+  position: absolute; inset: -5%;
   filter: blur(40px);
   background: radial-gradient(circle at 30% 30%,rgba(139,92,246,.6),transparent 40%),radial-gradient(circle at 70% 60%,rgba(34,211,238,.6),transparent 40%);
 }
